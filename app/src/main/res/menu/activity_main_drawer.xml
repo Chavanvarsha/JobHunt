@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_post_job"
+            android:title="@string/menu_post_job" />
+
+        <item
+            android:id="@+id/nav_search_for_candidate"
+            android:title="@string/menu_search_for_candidate" />
+        <item
+            android:id="@+id/nav_access_resume"
+            android:title="@string/menu_access_resume" />
+
+        <item
+            android:id="@+id/nav_membership_details"
+            android:title="@string/menu_membership_details" />
+        <item
+            android:id="@+id/nav_statistics_details"
+            android:title="@string/menu_statistics_details" />
+        <item
+            android:id="@+id/nav_invoices"
+            android:title="@string/menu_invoices" />
+        <item
+            android:id="@+id/nav_registerip"
+            android:title="@string/menu_register" />
+        <item
+            android:id="@+id/nav_view_edit_company_profile"
+            android:title="@string/menu_view_edit_company_profile" />
+        <item
+            android:id="@+id/nav_change_name_email"
+            android:title="@string/menu_change_name_email" />
+
+        <item
+            android:id="@+id/nav_request_greetings"
+            android:title="@string/menu_request_greetings" />
+
+        <item
+            android:id="@+id/nav_change_password"
+            android:title="@string/menu_change_password" />
+        <item
+            android:id="@+id/nav_contact_seajobsnow"
+            android:title="@string/menu_contact_seajobsnow" />
+        <item
+            android:id="@+id/nav_more_useful_links"
+            android:title="@string/menu_more_useful_links" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

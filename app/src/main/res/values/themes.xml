@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.JobHunt" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+       <!-- <item name="colorPrimary">@color/black_500</item>-->
+        <item name="colorPrimaryVariant">@color/black_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.JobHunt.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="customTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/holo_blue_light</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:dividerPadding">3dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="tabSelectedTextColor">@android:color/holo_blue_light</item>
+    </style>
+    <style name="Theme.JobHunt.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.JobHunt.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

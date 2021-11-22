@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+  <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="2dp">
+    <LinearLayout
+        android:id="@+id/ll_Position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/medium"
+                android:text="Position Id :"/>
+            <TextView
+                android:id="@+id/tvPositionId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="@dimen/medium"
+                android:text="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/medium"
+                android:text="Start Date :"/>
+            <TextView
+                android:id="@+id/tvStartDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="@dimen/medium"
+                android:text="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:paddingLeft="5dp"
+                android:textSize="@dimen/medium"
+                android:text="End Date :"/>
+            <TextView
+                android:id="@+id/tvEndDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="@dimen/medium"
+                android:text="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.3"
+                android:text="Status :"
+                android:textSize="@dimen/medium"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.2"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:textSize="@dimen/medium"
+                android:text="text" />
+            <TextView
+                android:id="@+id/view_Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="View Details"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textSize="@dimen/medium"
+                android:textColor="@color/blue"
+                android:layout_gravity="right" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>

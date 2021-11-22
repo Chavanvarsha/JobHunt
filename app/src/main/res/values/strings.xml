@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">JobHunt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_seajobnow">SeaJobsNow</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_suboperator">Sub Operators</string>
+    <string name="menu_todays_newsletter">Todays NewsLetter</string>
+    <string name="menu_post_job">Post your Job</string>
+    <string name="menu_advertise_vacancies">Advertise Vacancies</string>
+    <string name="menu_view_advertise">View your Advertisement</string>
+    <string name="menu_view_nba_vacancies">View NBA Advertisements</string>
+    <string name="menu_search_for_candidate">Search For Candidates</string>
+    <string name="menu_access_resume">Access Resume As Per Candidate Request</string>
+    <string name="menu_access_resume1">Resume As Per Candidate</string>
+    <string name="menu_message_from_jobhunts">Message from SeaJobsNow</string>
+    <string name="menu_membership_details">MemberShip Details</string>
+    <string name="menu_statistics_details">Statistics Details</string>
+    <string name="menu_invoices">Invoices</string>
+    <string name="menu_register">Registered IPs</string>
+    <string name="menu_view_edit_company_profile">View/Edit Company Profile</string>
+    <string name="menu_view_edit_company_profile1">Company Profile</string>
+    <string name="menu_change_name_email">Change Name/Email</string>
+    <string name="menu_brief_case">Brief Case</string>
+    <string name="menu_request_greetings">Request Greetings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_change_password">Change Password</string>
+    <string name="menu_contact_seajobsnow">Contact SeaJobsNow</string>
+    <string name="menu_more_useful_links">More Useful Links</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="jobhunt">JobHunt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

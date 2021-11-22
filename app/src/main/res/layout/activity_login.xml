@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="13dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            android:layout_marginLeft="13dp" />
+
+        <RelativeLayout
+            android:id="@+id/ll_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/etIndosNo"
+                android:layout_below="@+id/tvemail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:ellipsize="start"
+                android:paddingLeft="5dp"
+                android:hint=""
+                android:background="@drawable/rectangle1"
+                android:textColorHint="#000"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:imeOptions="actionNext"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginLeft="13dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ll_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/tvpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_below="@+id/tvpwd"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:ellipsize="start"
+                android:hint=""
+                android:paddingLeft="5dp"
+                android:background="@drawable/rectangle1"
+                android:textColorHint="#000"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:imeOptions="actionNext"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginLeft="13dp" />
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:background="@drawable/circle"/>
+        <RelativeLayout
+            android:id="@+id/ll_pasword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_email"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:background="@drawable/rect"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:padding="8dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/google" />
+            <TextView
+                android:id="@+id/etPasword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:text="Sign in with Google"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ll_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_email"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:background="@drawable/rect"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:padding="8dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/facebook" />
+            <TextView
+                android:id="@+id/etPd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:text="Sign in with Facebook"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New to SeaJobNow? Create an account"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
